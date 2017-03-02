@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="./app.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet">
+</head>
+<body>
+
+<header class="row bgdarkGray site">
+    <div class="medium-5 columns">
+        <div class="row">
+            <div class="medium-6 columns task-wrapper">
+                <div class="logo">booster</div>
+            </div>
+            <div class="medium-6 columns">
+                <div class="clearfix">
+                    <div class="task-wrapper">
+                        <div class="float-left">задачи</div>
+                        <div class="taskCounter">129</div>
+                        <button class="button headButton"><i class="material-icons">add</i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="medium-7 columns">
+        <div class="clearfix">
+            <div class="small-4 float-left">
+                <div class="form form-search">
+                    <form action="">
+                        <div class="input-group">
+                            <input class="input-group-field inputSearch" type="text" name="search" placeholder="Поиск">
+                            <div class="input-group-button ">
+                                <button class="button buttonSearch" type="submit" name="butSearch"><i
+                                        class="material-icons">search</i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="task-wrapperRight">
+                <a href="#" class="userLink">
+                    <div class=" float-right nowrap">
+                        <i class="ico">account_circle</i>
+                        <span class="nameUser">Сушенцев Семен</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="row">
+    <div class="medium-5 columns leftContent">
+        <div class="parameterSelection">
+            <div class="row blockParameter">
+                <div class="medium-4 columns">
+                    <select name="allProjects" size="1">
+                        <option value="ap1">-все проекты-</option>
+                    </select>
+                </div>
+
+                <div class="medium-4 columns end">
+                    <select name="fio" size="1">
+                        <option value="f1">-Семен Сушенцев-</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="headerActiveTask">
+            <span class="float-left">Активные задачи</span>
+            <span class="taskCounter">129</span>
+        </div>
+
+        <div class="activeTask">
+            <div class=" bgLightGray itemTask">
+                <div class="float-left checkBlock">
+                    <input type="checkbox">
+                </div>
+
+                <div class="overflow-hidden">
+                    <div class="clearfix">
+                        <div class="float-right">
+                            <i class="material-icons">add_alert</i>
+                            <span class="datePublication label">02.02.17</span>
+                            <i class="material-icons float-left float-right">account_circle</i>
+                        </div>
+
+                        <div class="headerTask">
+                            Придумать название для текстменеджера
+                        </div>
+                    </div>
+
+                    <div class="projectName">
+                        <span class="label">текстменеджер</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" bgLightGray itemTask">
+                <div class="float-left checkBlock">
+                    <input type="checkbox">
+                </div>
+
+                <div class="overflow-hidden">
+                    <div class="clearfix ">
+                        <div class="float-right">
+                            <span class="datePublication label">10.02.17</span>
+                            <i class="material-icons float-left float-right">account_circle</i>
+                        </div>
+
+                        <div class="headerTask">
+                            Создать новый сайт
+                        </div>
+                    </div>
+
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda atque beatae doloribus
+                        eius, explicabo inventore, ipsa iure maxime minus nesciunt odit pariatur quae reiciendis saepe,
+                        sed totam veniam veritatis.
+                    </div>
+
+                    <div class="projectName">
+                        <span class="label">делувремя</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" bgLightGray itemTask">
+                <div class="float-left checkBlock">
+                    <input type="checkbox">
+                </div>
+
+                <div class="overflow-hidden">
+                    <div class="clearfix">
+                        <div class="float-right">
+                            <span class="datePublication label">10.02.17</span>
+                            <i class="material-icons float-left float-right">account_circle</i>
+                        </div>
+
+                        <div class="headerTask">
+                            Создать новый сайт
+                        </div>
+                    </div>
+
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda atque beatae doloribus
+                        eius, explicabo inventore, ipsa iure maxime minus nesciunt odit pariatur quae reiciendis saepe,
+                        sed totam veniam veritatis.
+                    </div>
+
+                    <div class="projectName">
+                        <span class="label">делувремя</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="medium-7 columns rightContent">
+        <div class="task-detail">
+            <div class="header">
+                <div class="clearfix">
+                    <div class="float-left">
+                        <div class="float-left checkBlock">
+                            <input type="checkbox">
+                        </div>
+                        <div class="nowrap">Создать новый сайт</div>
+                    </div>
+
+                    <div class="float-right">
+                        <i class="material-icons">supervisor_account</i>
+                        <i class="material-icons">more_horiz</i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="labeltes">
+                <span class="label">таскменеджер</span>
+            </div>
+
+
+            <div class="taskInfo">
+                <div class="clearfix">
+                    <div class="float-left">
+                        <div class="user clearfix">
+                            <i class="material-icons float-left">account_circle</i>
+                            <div style="white-space: nowrap">Сушенцев Семен</div>
+                        </div>
+                    </div>
+                    <div class="float-right">
+                        <i class="material-icons">add_alert</i>
+                        <span class="datePublication label">02.02.17</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="taskBlock itemTask">
+                <div class="task">
+                    <div class="row column">
+                        <div class="textTask">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consectetur cumque cupiditate
+                            deserunt, dicta dolorem ea eos eveniet iusto necessitatibus nihil provident qui quos saepe,
+                            sint
+                            sunt tempore vero, vitae.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="listFiles clearfix">
+                    <div class="itemAttach float-left">
+                        <div class="name">
+                            <i class="material-icons">attach_file</i>
+                            <a href="#">Файл1</a>
+                        </div>
+                        <div class="img">
+                            <img src="#">
+                        </div>
+                    </div>
+
+                    <div class="itemAttach float-left">
+                        <div class="name">
+                            <i class="material-icons">filter_none</i>
+                            <a href="#">Файл2</a>
+                        </div>
+                        <div class="img">
+                            <img src="#">
+                        </div>
+                    </div>
+
+                    <div class="itemAttach float-left">
+                        <div class="name">
+                            <i class="material-icons">filter_none</i>
+                            <a href="#">Файл3</a>
+                        </div>
+                        <div class="img">
+                            <img src="#">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subtaskList">
+                    <div class="subtask clearfix">
+                        <div class="checkBlock float-left">
+                            <input type="checkbox">
+                        </div>
+                        <div>Придумать название для текст менеджера<a href="#">ссылка</a></div>
+                    </div>
+                    <div class="subtask clearfix">
+                        <div class="checkBlock float-left">
+                            <input type="checkbox">
+                        </div>
+                        <div>Придумать название для текст менеджера<a href="#">ссылка</a></div>
+                    </div>
+                    <div class="subtask clearfix">
+                        <div class="checkBlock float-left">
+                            <input type="checkbox">
+                        </div>
+                        <div>Придумать название для текст менеджера<a href="#">ссылка</a></div>
+                    </div>
+                    <div class="subtask clearfix">
+                        <div class="checkBlock float-left">
+                            <input type="checkbox">
+                        </div>
+                        <div>Придумать название для текст менеджера<a href="#">ссылка</a></div>
+                    </div>
+                    <div class="addSubtask">
+                        <i class="material-icons">add</i>
+                        <a href="#">добавить подзадачу</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="commentBlock">
+                <div class="addComment">
+                    <div class="input-group">
+                <span class="input-group-label">
+                    <label for="addFile" class="material-icons">
+                        <input type="file" id="addFile">
+                           <i class="material-icons">attach_file</i>
+                    </label>
+                </span>
+                        <textarea class="input-group-field" type="text" placeholder="добавить комментарий"></textarea>
+                        <div class="input-group-label">
+                            <i class="material-icons">access_time</i>
+                            <i class="material-icons">forward</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="commentList">
+                    <div class="comment item">
+                        <header class="commentHeader clearfix">
+                            <div class="float-left">
+                                <i class="material-icons float-left">account_circle</i>
+                                <div class="nowrap">Сушенцева Валерия</div>
+                            </div>
+                            <div class="float-right">
+                                сегодня 14:05
+                            </div>
+                        </header>
+                        <div class="commentText">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eius et impedit ipsa,
+                            itaque
+                            laboriosam repudiandae rerum sit! Ab architecto assumenda fugiat ipsam libero reiciendis
+                            reprehenderit
+                            unde voluptatibus. Autem, dolorum.
+                        </div>
+                    </div>
+                    <div class="comment item">
+                        <header class="commentHeader clearfix">
+                            <div class="float-left">
+                                <i class="material-icons float-left">account_circle</i>
+                                <div class="nowrap">Сушенцева Валерия</div>
+                            </div>
+                            <div class="float-right">
+                                сегодня 15:05
+                            </div>
+                        </header>
+                        <div class="commentText">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eius et impedit ipsa,
+                            itaque
+                            laboriosam repudiandae rerum sit! Ab architecto assumenda fugiat ipsam libero reiciendis
+                            reprehenderit
+                            unde voluptatibus. Autem, dolorum.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

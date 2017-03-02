@@ -1,0 +1,12 @@
+@import "vars";
+@import "foundation/foundation";
+
+@include foundation-global-styles();
+@include foundation-grid();
+@include foundation-button();
+@include foundation-forms();
+@include foundation-text-alignment();
+@include foundation-float-classes();
+@include foundation-label();
+@include foundation-thumbnail();
+
